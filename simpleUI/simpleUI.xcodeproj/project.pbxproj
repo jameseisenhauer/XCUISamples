@@ -49,9 +49,9 @@
 		892202671D83D9D700ACA193 /* simpleUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpleUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8922026B1D83D9D700ACA193 /* simpleUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpleUIUITests.swift; sourceTree = "<group>"; };
 		8922026D1D83D9D700ACA193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		892203311D84A23600ACA193 /* ViewOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewOne.swift; path = ../simpleUITests/ViewOne.swift; sourceTree = "<group>"; };
-		892203331D84A25500ACA193 /* ViewTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewTwo.swift; path = ../simpleUITests/ViewTwo.swift; sourceTree = "<group>"; };
-		8968FE181D84DEBF0010991B /* ButtonsTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ButtonsTabBar.swift; path = ../simpleUITests/ButtonsTabBar.swift; sourceTree = "<group>"; };
+		892203311D84A23600ACA193 /* ViewOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewOne.swift; sourceTree = "<group>"; };
+		892203331D84A25500ACA193 /* ViewTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewTwo.swift; sourceTree = "<group>"; };
+		8968FE181D84DEBF0010991B /* ButtonsTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonsTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,12 +102,12 @@
 			isa = PBXGroup;
 			children = (
 				892202491D83D9D700ACA193 /* AppDelegate.swift */,
-				8922024B1D83D9D700ACA193 /* FirstViewController.swift */,
-				8922024D1D83D9D700ACA193 /* SecondViewController.swift */,
-				8922024F1D83D9D700ACA193 /* Main.storyboard */,
 				892202521D83D9D700ACA193 /* Assets.xcassets */,
-				892202541D83D9D700ACA193 /* LaunchScreen.storyboard */,
+				8922024B1D83D9D700ACA193 /* FirstViewController.swift */,
 				892202571D83D9D700ACA193 /* Info.plist */,
+				892202541D83D9D700ACA193 /* LaunchScreen.storyboard */,
+				8922024F1D83D9D700ACA193 /* Main.storyboard */,
+				8922024D1D83D9D700ACA193 /* SecondViewController.swift */,
 			);
 			path = simpleUI;
 			sourceTree = "<group>";
@@ -127,7 +127,7 @@
 			children = (
 				8922026B1D83D9D700ACA193 /* simpleUIUITests.swift */,
 			);
-			name = Tests;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		899E777C1D85DB2800C7D588 /* Views */ = {
@@ -137,7 +137,7 @@
 				892203331D84A25500ACA193 /* ViewTwo.swift */,
 				899E777D1D85DB3A00C7D588 /* Protocols */,
 			);
-			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		899E777D1D85DB3A00C7D588 /* Protocols */ = {
@@ -145,7 +145,7 @@
 			children = (
 				8968FE181D84DEBF0010991B /* ButtonsTabBar.swift */,
 			);
-			name = Protocols;
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,6 +331,7 @@
 				892202501D83D9D700ACA193 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		892202541D83D9D700ACA193 /* LaunchScreen.storyboard */ = {
@@ -339,6 +340,7 @@
 				892202551D83D9D700ACA193 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
