@@ -21,23 +21,22 @@ class simpleUIUITests: XCTestCase {
         let viewOne = ViewOne()
         let viewTwo = ViewTwo()
         
-    
+        
+        XCTAssertTrue(viewOne.text.title.exists)
         XCTAssertEqual(viewOne.text.title.label, "First View")
-        XCTAssertEqual(viewOne.text.title.label, "First View")
+        
+        XCTAssertTrue(viewOne.text.subTitle.exists)
         XCTAssertEqual(viewOne.text.subTitle.label, "Loaded by FirstViewController")
-        XCTAssertEqual(viewOne.text.title.label, "First View")
-        XCTAssertEqual(viewOne.text.subTitle.label, "Loaded by FirstViewController")
-
+        
         
         viewOne.button.Second.tap()
+        XCTAssertTrue(viewTwo.text.subTitle.exists)
         XCTAssertEqual(viewTwo.text.title.label, "Second View")
         
-         viewTwo.button.someButton.tap()
-         viewTwo.button.someButton.tap()
-         viewTwo.button.someButton.tap()
-         viewTwo.button.someButton.tap()
-         viewTwo.button.someButton.tap()
-        
+        for _ in 1...5 {
+            
+            viewTwo.button.someButton.tap()
+        }
         
         viewTwo.button.First.tap()
         viewOne.button.Second.tap()

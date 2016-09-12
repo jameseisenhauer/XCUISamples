@@ -18,16 +18,10 @@ class ViewOne {
         
     struct Text {
         
-        var title = XCUIApplication().staticTexts["first_title"]
+        var title =    XCUIApplication().staticTexts["first_title"]
         var subTitle = XCUIApplication().staticTexts["first_subtitle"]
+    }
+    
+    struct Button: TabBarButtons {}
 
-    }
-    
-    struct Button: ButtonsTabBar {
-        
-        
-        
-    }
-    
-        
 }

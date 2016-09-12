@@ -18,18 +18,14 @@ class ViewTwo {
     
     struct Text {
         
-        var title = XCUIApplication().staticTexts["second_title"]
+        var title =    XCUIApplication().staticTexts["second_title"]
         var subTitle = XCUIApplication().staticTexts["second_subtitle"]
-        
     }
     
-    struct Button: ButtonsTabBar {
+    struct Button: TabBarButtons {
         
         var someButton = XCUIApplication().buttons["some_button"]
-        
     }
-    
-    
     
 }
 

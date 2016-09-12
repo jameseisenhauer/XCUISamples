@@ -1,5 +1,5 @@
 //
-//  BlockTabBar.swift
+//  TabBar.swift
 //  simpleUI
 //
 //  Created by James Eisenhauer on 9/10/16.
@@ -9,13 +9,11 @@
 import Foundation
 import XCTest
 
-protocol ButtonsTabBar {
-    
-
-}
 
 
-extension ButtonsTabBar {
+protocol TabBarButtons {}
+
+extension TabBarButtons {
     
     var First: XCUIElement {
         return XCUIApplication().buttons["First"]
@@ -24,5 +22,4 @@ extension ButtonsTabBar {
     var Second: XCUIElement {
         return XCUIApplication().buttons["Second"]
     }
-    
 }

@@ -16,7 +16,7 @@
 		8922026C1D83D9D700ACA193 /* simpleUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8922026B1D83D9D700ACA193 /* simpleUIUITests.swift */; };
 		899E77781D84E96000C7D588 /* ViewOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892203311D84A23600ACA193 /* ViewOne.swift */; };
 		899E77791D84E96700C7D588 /* ViewTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892203331D84A25500ACA193 /* ViewTwo.swift */; };
-		899E777A1D84E96C00C7D588 /* ButtonsTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8968FE181D84DEBF0010991B /* ButtonsTabBar.swift */; };
+		899E777A1D84E96C00C7D588 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8968FE181D84DEBF0010991B /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +51,7 @@
 		8922026D1D83D9D700ACA193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		892203311D84A23600ACA193 /* ViewOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewOne.swift; sourceTree = "<group>"; };
 		892203331D84A25500ACA193 /* ViewTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewTwo.swift; sourceTree = "<group>"; };
-		8968FE181D84DEBF0010991B /* ButtonsTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonsTabBar.swift; sourceTree = "<group>"; };
+		8968FE181D84DEBF0010991B /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +143,7 @@
 		899E777D1D85DB3A00C7D588 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				8968FE181D84DEBF0010991B /* ButtonsTabBar.swift */,
+				8968FE181D84DEBF0010991B /* TabBar.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -302,7 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				899E777A1D84E96C00C7D588 /* ButtonsTabBar.swift in Sources */,
+				899E777A1D84E96C00C7D588 /* TabBar.swift in Sources */,
 				899E77791D84E96700C7D588 /* ViewTwo.swift in Sources */,
 				899E77781D84E96000C7D588 /* ViewOne.swift in Sources */,
 				8922026C1D83D9D700ACA193 /* simpleUIUITests.swift in Sources */,
