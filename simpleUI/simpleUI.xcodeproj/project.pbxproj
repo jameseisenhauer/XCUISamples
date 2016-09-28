@@ -52,6 +52,9 @@
 		892203311D84A23600ACA193 /* ViewOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewOne.swift; sourceTree = "<group>"; };
 		892203331D84A25500ACA193 /* ViewTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewTwo.swift; sourceTree = "<group>"; };
 		8968FE181D84DEBF0010991B /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		89F838841D9BFCFE00335F55 /* XCUIApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XCUIApplication.h; path = ../../../WebDriverAgent/PrivateHeaders/XCTest/XCUIApplication.h; sourceTree = "<group>"; };
+		89F838851D9BFD4100335F55 /* XCUIElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XCUIElement.h; path = ../../../WebDriverAgent/PrivateHeaders/XCTest/XCUIElement.h; sourceTree = "<group>"; };
+		89F838861D9BFDBF00335F55 /* simpleUIUITests--Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "simpleUIUITests--Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,9 +118,12 @@
 		8922026A1D83D9D700ACA193 /* simpleUIUITests */ = {
 			isa = PBXGroup;
 			children = (
+				8922026D1D83D9D700ACA193 /* Info.plist */,
+				89F838851D9BFD4100335F55 /* XCUIElement.h */,
+				89F838841D9BFCFE00335F55 /* XCUIApplication.h */,
+				89F838861D9BFDBF00335F55 /* simpleUIUITests--Bridging-Header.h */,
 				899E777B1D85DB1C00C7D588 /* Tests */,
 				899E777C1D85DB2800C7D588 /* Views */,
-				8922026D1D83D9D700ACA193 /* Info.plist */,
 			);
 			path = simpleUIUITests;
 			sourceTree = "<group>";
@@ -502,6 +508,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jameseisenhauer.simpleUIUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "simpleUIUITests/simpleUIUITests--Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = simpleUI;
 			};
@@ -516,6 +523,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jameseisenhauer.simpleUIUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "simpleUIUITests/simpleUIUITests--Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = simpleUI;
 			};

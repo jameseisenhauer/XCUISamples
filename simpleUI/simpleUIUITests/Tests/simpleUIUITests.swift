@@ -38,6 +38,24 @@ class simpleUIUITests: XCTestCase {
             viewTwo.button.someButton.tap()
         }
         
+        
+        XCUIDevice.shared().press(.home)
+        let safari = XCUIApplication(privateWithPath: nil, bundleID: "com.apple.mobilesafari")
+        
+        
+        
+        safari!.launch()
+        safari!.launch()
+        
+        safari!.children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element(boundBy: 0).otherElements["URL"].tap()
+        safari!.typeText("www.tavin.com")
+        
+        safari!.buttons["Go"].tap()
+    
+       // print(safari.debugDescription)
+        
+        print("")
+        
         viewTwo.button.First.tap()
         viewOne.button.Second.tap()
         viewTwo.button.First.tap()

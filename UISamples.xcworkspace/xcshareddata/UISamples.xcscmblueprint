@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2B0E5224CB39DB25AEF7C28410CE084EA36D0D39",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "87EA586C0C0BCBBC0F91DD3F84486558FF1B401A" : 9223372036854775807,
+    "2B0E5224CB39DB25AEF7C28410CE084EA36D0D39" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6AEABB7F-3962-4122-8E15-27B8FFC6A89F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "87EA586C0C0BCBBC0F91DD3F84486558FF1B401A" : "WebDriverAgent\/",
+    "2B0E5224CB39DB25AEF7C28410CE084EA36D0D39" : "UISamples\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "UISamples",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "UISamples.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jameseisenhauer\/XCUISamples.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2B0E5224CB39DB25AEF7C28410CE084EA36D0D39"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/facebook\/WebDriverAgent.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "87EA586C0C0BCBBC0F91DD3F84486558FF1B401A"
+    }
+  ]
+}
