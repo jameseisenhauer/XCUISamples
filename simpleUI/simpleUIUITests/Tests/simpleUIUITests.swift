@@ -51,17 +51,15 @@ class simpleUIUITests: XCTestCase {
         safari!.typeText("www.tavin.com")
         
         safari!.buttons["Go"].tap()
+        
+        sleep(5)
+        
+        safari?.terminate()
     
        // print(safari.debugDescription)
         
         print("")
-        
-        viewTwo.button.First.tap()
-        viewOne.button.Second.tap()
-        viewTwo.button.First.tap()
-        
-        XCTAssertEqual(viewOne.text.title.label, "First View")
-        
+               
 
     }
     
